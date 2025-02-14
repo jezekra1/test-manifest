@@ -1,5 +1,8 @@
 manifestVersion: 1
-driver: unmanaged
+driver: python
+pythonVersion: "3.12"
+package: "git+https://github.com/jezekra1/test-manifest"
 serverType: http
 mcpTransport: sse
-mcpEndpoint: http://localhost:8000/sse
+mcpEndpoint: /sse
+command: [ "crewai-agent" ]
