@@ -1,0 +1,8 @@
+manifestVersion: 1
+driver: python
+pythonVersion: "3.12"
+package: "file://."
+serverType: http
+mcpTransport: sse
+mcpEndpoint: /sse
+command: [ "crewai-agent" ]

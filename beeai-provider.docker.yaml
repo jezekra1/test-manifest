@@ -1,0 +1,6 @@
+manifestVersion: 1
+driver: container
+image: test-manifest:local
+serverType: http
+mcpTransport: sse
+mcpEndpoint: /sse
